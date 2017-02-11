@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Proxima-Nova';
+    src: url(ProximaNova-LightIt.otf);
+}
+
+button {
+    margin: 15px;
+}
+
+.x {
+    width: 20px;
+    height: 20px;
+    float: right;
+}
+
+p {
+    font-family: Proxima-Nova;
+    text-align: center;
+}
+
+.quoteBoxes {
+    padding: 20px;
+    border-width: 3px;
+    border-style: solid;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainContent {
+    width: 75%;
+    background-color: #2c3e50;
+    padding: 50px;
+}
